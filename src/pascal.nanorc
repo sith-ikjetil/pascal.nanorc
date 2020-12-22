@@ -1,13 +1,15 @@
 syntax "pascal" "\.pas$"
 # Reserved Keywords Turbo Pascal
-color brightblue "\<(and|array|asm|begin|break|case|const|constructor|continue|destructor|div|do|downto|else|end|false|file|for|function|goto|if|implementation|in|inline|interface|label|mod|nil|not|object|of|on|operator|or|packed|procedure|program|record|repeat|set|shl|shr|string|then|to|true|type|unit|until|uses|var|while|with|xor)\>"
+color brightblue "\<(and|array|asm|begin|break|case|const|constructor|continue|destructor|div|do|downto|else|end|false|file|for|function|goto|if|implementation|in|inline|interface|label|mod|nil|not|object|of|on|operator|or|packed|procedure|program|record|repeat|set|shl|shr|then|to|true|type|unit|until|uses|var|while|with|xor)\>"
 # Reserved Keywords Object Pascal
 color brightblue "\<(as|class|constref|dispose|except|exit|exports|finalization|finally|inherited|initialization|is|library|new|on|out|property|raise|self|threadvar|try)\>"
 # Modifiers
 color brightyellow "\<(absolute|abstract|alias|assembler|cdecl|cppdecl|default|export|external|forward|generic|index|local|name|nostackframe|oldfpccall|override|pascal|private|protected|public|published|read|register|reintroduce|safecall|softfloat|specialize|stdcall|virtual|write|far|near)\>"
 # DataTypes
-color brightgreen "\<(integer|real|char|boolean|word|longint|file|text)\>"
+color brightgreen "\<(string|integer|real|char|boolean|word|longint|file|text)\>"
 # Other
-color yellow "\<(read|readln|write|writeln|eof|eol|nil)\>"
-color brightblue "//.*"
+color yellow "\<(read|readln|write|writeln|eof|eol|nil|clrscr|textcolor|textbackground)\>"
+color brightyellow "[\)\(,;]+|[][]+|(:|=)+"
+color brightmagenta "[']{1}.{1,}[']{1}"
+color green "//.*"
 color brightblue start="\{" end="\}"
