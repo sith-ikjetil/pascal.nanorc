@@ -9,7 +9,11 @@ color brightyellow "\<(absolute|abstract|alias|assembler|cdecl|cppdecl|default|e
 color brightgreen "\<(string|integer|real|char|boolean|word|longint|file|text)\>"
 # Other
 color yellow "\<(read|readln|write|writeln|eof|eol|nil|clrscr|textcolor|textbackground)\>"
+# Operators
 color brightyellow "[\)\(,;]+|[][]+|(:|=)+"
-color brightmagenta "[']{1}.{1,}[']{1}"
+# Text Strings
+color brightmagenta "[']{1}.*[']{1}"
+# Comments
 color green "//.*"
-color brightblue start="\{" end="\}"
+color green start="\{" end="\}"
+color green start="\(\*" end="\*\)"
