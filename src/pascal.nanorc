@@ -1,14 +1,14 @@
 syntax "pascal" "\.pas$"
 # Reserved Keywords Turbo Pascal
-color brightblue "\<(and|array|asm|begin|break|case|const|constructor|continue|destructor|div|do|downto|else|end|false|file|for|function|goto|if|implementation|in|inline|interface|label|mod|nil|not|object|of|on|operator|or|packed|procedure|program|record|repeat|set|shl|shr|then|to|true|type|unit|until|uses|var|while|with|xor)\>"
+color brightblue "\<(\band\b|\barray\b|\basm\b|\bbegin\b|\bbreak\b|\bcase\b|\bconst\b|\bconstructor\b|\bcontinue\b|\bdestructor\b|\bdiv\b|\bdo\b|\bdownto\b|\belse\b|\bend\b|\bfalse\b|\bfile\b|\bfor\b|\bfunction\b|\bgoto\b|\bif\b|\bimplementation\b|\bin\b|\binline\b|\binterface\b|\blabel\b|\bmod\b|\bnil\b|\bnot\b|\bobject\b|\bof\b|\bon\b|\boperator\b|\bor\b|\bpacked\b|\bprocedure\b|\bprogram\b|\brecord\b|\brepeat\b|\bset\b|\bshl\b|\bshr\b|\bthen\b|\bto\b|\btrue\b|\btype\b|\bunit\b|\buntil\b|\buses\b|\bvar\b|\bwhile\b|\bwith\b|\bxor\b)\>"
 # Reserved Keywords Object Pascal
-color brightblue "\<(as|class|constref|dispose|except|exit|exports|finalization|finally|inherited|initialization|is|library|new|on|out|property|raise|self|threadvar|try)\>"
+color brightblue "\<(\bas\b|\bclass\b|\bconstref\b|\bdispose\b|\bexcept\b|\bexit\b|\bexports\b|\bfinalization\b|\bfinally\b|\binherited\b|\binitialization\b|\bis\b|\blibrary\b|\bnew\b|\bon\b|\bout\b|\bproperty\b|\braise\b|\bself\b|\bthreadvar\b|\btry\b)\>"
 # Modifiers
-color brightyellow "\<(absolute|abstract|alias|assembler|cdecl|cppdecl|default|export|external|forward|generic|index|local|name|nostackframe|oldfpccall|override|pascal|private|protected|public|published|register|reintroduce|safecall|softfloat|specialize|stdcall|virtual|far|near)\>"
+color brightyellow "\<(\babsolute\b|\babstract\b|\balias\b|\bassembler\b|\bcdecl\b|\bcppdecl\b|\bdefault\b|\bexport\b|\bexternal\b|\bforward\b|\bgeneric\b|\bindex\b|\blocal\b|\bname\b|\bnostackframe\b|\boldfpccall\b|\boverride\b|\bpascal\b|\bprivate\b|\bprotected\b|\bpublic\b|\bpublished\b|\bregister\b|\breintroduce\b|\bsafecall\b|\bsoftfloat\b|\bspecialize\b|\bstdcall\b|\bvirtual\b|\bfar\b|\bnear\b)\>"
 # DataTypes
-color brightgreen "\<(string|integer|real|char|boolean|word|longint|textfile|file|text)\>"
+color brightgreen "\<(\bstring\b|\binteger\b|\breal\b|\bchar\b|\bboolean\b|\bword\b|\blongint\b|\btextfile\b|\bfile\b|\btext\b)\>"
 # Other
-color yellow "\<(comparestr|delete|comparetext|pos|leftstr|rightstr|copy|fileexists|reset|readln|read|writeln|write|eof|eol|nil|clrscr|textcolor|textbackground)\>"
+color yellow "\<(\bassign|\brewrite|\bcomparestr|\bdelete|\bcomparetext|\bpos|\bleftstr|\brightstr|\bcopy|\bfileexists|\breset|\breadln|\bread|\bwriteln|\bwrite|\beof|\beol|\bnil|\bclrscr|\btextcolor|\btextbackground)\>"
 # Operators
 color brightyellow "[\)\(,;]+|[][]+|(:|=|\+\-)+"
 # Text Strings
