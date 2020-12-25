@@ -8,7 +8,7 @@ color brightyellow "\<(\babsolute\b|\babstract\b|\balias\b|\bassembler\b|\bcdecl
 # DataTypes
 color brightgreen "\<(\bstring\b|\binteger\b|\breal\b|\bchar\b|\bboolean\b|\bword\b|\blongint\b|\btextfile\b|\bfile\b|\btext\b)\>"
 # Other
-color yellow "\<(\bassign|\brewrite|\bcomparestr|\bdelete|\bcomparetext|\bpos|\bleftstr|\brightstr|\bcopy|\bfileexists|\breset|\breadln|\bread|\bwriteln|\bwrite|\beof|\beol|\bnil|\bclrscr|\btextcolor|\btextbackground)\>"
+color yellow "\<(\bparamstr|\bparamcount|\blength|\bgetuserdir|\bassign|\brewrite|\bcomparestr|\bdelete|\bcomparetext|\bpos|\bleftstr|\brightstr|\bcopy|\bfileexists|\breset|\breadln|\bread|\bwriteln|\bwrite|\beof|\beol|\bnil|\bclrscr|\btextcolor|\btextbackground)\>"
 # Operators
 color brightyellow "[\)\(,;]+|[][]+|(:|=|\+\-)+"
 # Text Strings
