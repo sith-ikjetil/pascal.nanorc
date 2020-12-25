@@ -12,7 +12,7 @@ color yellow "\<(\bparamstr|\bparamcount|\blength|\bgetuserdir|\bassign|\brewrit
 # Operators
 color brightyellow "[\)\(,;]+|[][]+|(:|=|\+\-)+"
 # Text Strings
-color brightmagenta "'.*'"
+color brightmagenta "'[^\']*'"
 # Comments
 color green "//.*$"
 color green start="\{" end="\}"
