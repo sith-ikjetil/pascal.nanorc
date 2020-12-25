@@ -4,16 +4,16 @@ color brightblue "\<(and|array|asm|begin|break|case|const|constructor|continue|d
 # Reserved Keywords Object Pascal
 color brightblue "\<(as|class|constref|dispose|except|exit|exports|finalization|finally|inherited|initialization|is|library|new|on|out|property|raise|self|threadvar|try)\>"
 # Modifiers
-color brightyellow "\<(absolute|abstract|alias|assembler|cdecl|cppdecl|default|export|external|forward|generic|index|local|name|nostackframe|oldfpccall|override|pascal|private|protected|public|published|read|register|reintroduce|safecall|softfloat|specialize|stdcall|virtual|write|far|near)\>"
+color brightyellow "\<(absolute|abstract|alias|assembler|cdecl|cppdecl|default|export|external|forward|generic|index|local|name|nostackframe|oldfpccall|override|pascal|private|protected|public|published|register|reintroduce|safecall|softfloat|specialize|stdcall|virtual|far|near)\>"
 # DataTypes
-color brightgreen "\<(string|integer|real|char|boolean|word|longint|file|text)\>"
+color brightgreen "\<(string|integer|real|char|boolean|word|longint|textfile|file|text)\>"
 # Other
-color yellow "\<(read|readln|write|writeln|eof|eol|nil|clrscr|textcolor|textbackground)\>"
+color yellow "\<(comparestr|delete|comparetext|pos|leftstr|rightstr|copy|fileexists|reset|readln|read|writeln|write|eof|eol|nil|clrscr|textcolor|textbackground)\>"
 # Operators
-color brightyellow "[\)\(,;]+|[][]+|(:|=)+"
+color brightyellow "[\)\(,;]+|[][]+|(:|=|\+\-)+"
 # Text Strings
-color brightmagenta "[']{1}.*[']{1}"
+color brightmagenta "'.*'"
 # Comments
-color green "//.*"
+color green "//.*$"
 color green start="\{" end="\}"
 color green start="\(\*" end="\*\)"
