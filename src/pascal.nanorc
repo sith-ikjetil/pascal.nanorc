@@ -8,7 +8,8 @@ color brightyellow "\<(\babsolute\b|\babstract\b|\balias\b|\bassembler\b|\bcdecl
 # DataTypes
 color brightgreen "\<(\bstring\b|\binteger\b|\breal\b|\bchar\b|\bboolean\b|\bword\b|\blongint\b|\btextfile\b|\bfile\b|\btext\b)\>"
 # Other
-color yellow "\<(\bparamstr|\bparamcount|\blength|\bgetuserdir|\bassign|\brewrite|\bcomparestr|\bdelete|\bcomparetext|\bpos|\bleftstr|\brightstr|\bcopy|\bfileexists|\breset|\breadln|\bread|\bwriteln|\bwrite|\beof|\beol|\bnil|\bclrscr|\btextcolor|\btextbackground)\>"
+color yellow "\<(\bclose\b|\bparamstr\b|\bparamcount\b|\blength\b|\bgetuserdir\b|\bassign\b|\brewrite\b|\bcomparestr\b|\bdelete\b|\bcomparetext\b|\bpos\b|\bleftstr\b|\brightstr\b|\bcopy\b|\bfileexists\b|\breset\b|\breadln\b|\bread\b|\bwriteln\b|\bwrite\b|\beof\b|\beol\b|\bnil\b|\bclrscr\b|\btextcolor\b|\btextbackground\b)\>"
+color yellow "\<(\bClose\b|\bParamStr\b|\bParamCount\b|\bLength\b|\bGetUserDir\b|\bAssign\b|\bRewrite\b|\bCompareStr\b|\bDelete\b|\bCompareText\b|\bPos\b|\bLeftStr\b|\bRightStr\b|\bCopy\b|\bFileExists\b|\bReset\b|\bReadLn\b|\bRead\b|\bWriteLn\b|\bWrite\b|\bEof\b|\bEol\b|\bNil\b|\bClrScr\b|\bTextColor\b|\bTextBackground\b)\>"
 # Operators
 color brightyellow "[\)\(,;]+|[][]+|(:|=|\+\-)+"
 # Text Strings
