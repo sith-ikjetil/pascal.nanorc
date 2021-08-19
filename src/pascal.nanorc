@@ -1,5 +1,5 @@
 syntax "pascal" "\.pas$"
-# Reserved Keywords Turbo Pascal
+# Reserved Keywords Turbo Pascal 
 color brightblue "\<(\band\b|\barray\b|\basm\b|\bbegin\b|\bbreak\b|\bcase\b|\bconst\b|\bconstructor\b|\bcontinue\b|\bdestructor\b|\bdiv\b|\bdo\b|\bdownto\b|\belse\b|\bend\b|\bfalse\b|\bfile\b|\bfor\b|\bfunction\b|\bgoto\b|\bif\b|\bimplementation\b|\bin\b|\binline\b|\binterface\b|\blabel\b|\bmod\b|\bnil\b|\bnot\b|\bobject\b|\bof\b|\bon\b|\boperator\b|\bor\b|\bpacked\b|\bprocedure\b|\bprogram\b|\brecord\b|\brepeat\b|\bset\b|\bshl\b|\bshr\b|\bthen\b|\bto\b|\btrue\b|\btype\b|\bunit\b|\buntil\b|\buses\b|\bvar\b|\bwhile\b|\bwith\b|\bxor\b)\>"
 # Reserved Keywords Object Pascal
 color brightblue "\<(\bas\b|\bclass\b|\bconstref\b|\bdispose\b|\bexcept\b|\bexit\b|\bexports\b|\bfinalization\b|\bfinally\b|\binherited\b|\binitialization\b|\bis\b|\blibrary\b|\bnew\b|\bon\b|\bout\b|\bproperty\b|\braise\b|\bself\b|\bthreadvar\b|\btry\b)\>"
