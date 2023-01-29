@@ -1,5 +1,4 @@
 syntax "pascal" "\.pas$"
-
 # Comments
 color green "//.*$"
 color green start="\{" end="\}"
